@@ -94,11 +94,17 @@ Test| Runs automated tests
 A GitHub webhook is configured to notify Jenkins whenever code is pushed to the repository.
 
 GitHub Push
+
      ↓
+     
   Webhook
+  
      ↓
+     
    Jenkins
+   
      ↓
+     
   Pipeline
 
 This allows Jenkins to automatically trigger the pipeline after a GitHub push.
