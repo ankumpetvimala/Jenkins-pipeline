@@ -42,9 +42,13 @@ The project uses the following Jenkins components:
 📂 Project Structure
 
 project/
+
 │
+
 ├── Jenkinsfile
+
 ├── README.md
+
 └── application-files
 
 📜 Jenkinsfile
@@ -78,8 +82,11 @@ pipeline {
 🔧 Pipeline Stages
 
 Stage| Purpose
+
 Checkout| Retrieves source code from GitHub
+
 Build| Builds the application and installs dependencies
+
 Test| Runs automated tests
 
 🔗 GitHub Webhook Integration
